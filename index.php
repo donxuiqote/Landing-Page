@@ -112,7 +112,7 @@
             <div class="row mt-4">
                 <div class="col-md-6">
                     <h3>Visi</h3>
-                    <p>Menjadi sekolah unggulan yang menghasilkan generasi berakhlak mulia dan berprestasi.</p>
+                    <p>Menjadi Sekolah Unggulan di Kota Sidoarjo dengan Menghasilkan Lulusan yang Taqwa, Cerdas dan Kompetitif</p>
                 </div>
                 <div class="col-md-6">
                     <h3>Misi</h3>
