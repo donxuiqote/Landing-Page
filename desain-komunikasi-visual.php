@@ -1,157 +1,190 @@
-<?php include 'includes/header.php'; ?>
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DKV</title>
-    <link rel="stylesheet" href="css/styles.css">
+	<meta charset="UTF-8">
+	<title>Agency Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <?php include 'includes/navbar.php'; ?>
-
-    <section class="header-slider">
-    <div class="slider-container">
-        <div class="slider-wrapper">
-            <!-- Slide 1 -->
-            <div class="slider-slide">
-                <div class="slider-image">
-                    <img src="https://picsum.photos/800/600?random=1" alt="Gambar Slider 1">
-                </div>
-                <div class="slider-text">
-                    <h1>Selamat Datang di Sekolah Kami</h1>
-                    <p>Menawarkan pendidikan berkualitas untuk masa depan yang lebih baik.</p>
-                    <a href="about.php" class="btn-learn-more">Pelajari Lebih Lanjut</a>
-                </div>
-            </div>
-            <!-- Slide 2 -->
-            <div class="slider-slide">
-                <div class="slider-image">
-                    <img src="https://picsum.photos/800/600?random=2" alt="Gambar Slider 2">
-                </div>
-                <div class="slider-text">
-                    <h1>Kualitas Pendidikan Terbaik</h1>
-                    <p>Kami menyediakan berbagai program untuk mengembangkan potensi siswa.</p>
-                    <a href="programs.php" class="btn-learn-more">Jelajahi Program</a>
-                </div>
-            </div>
-        </div>
-        <!-- Slider Controls -->
-        <button class="slider-control prev">&#10094;</button>
-        <button class="slider-control next">&#10095;</button>
-    </div>
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Agency Web</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#banner">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 </section>
 
-<!-- Sambutan Kepala Sekolah Section -->
-<section class="principal-welcome">
-    <div class="container">
-        <h2>Sambutan Kepala Sekolah</h2>
-        <div class="principal-welcome-content">
-            <img src="https://picsum.photos/150/150" alt="Kepala Sekolah" class="principal-image">
-            <div class="principal-text">
-                <p>Selamat datang di sekolah kami! Kami berkomitmen untuk menyediakan pendidikan yang berkualitas tinggi untuk semua siswa kami. Dengan dukungan dari tim pengajar yang berpengalaman dan fasilitas yang lengkap, kami yakin bahwa setiap siswa akan memiliki kesempatan untuk mencapai potensi penuh mereka.</p>
-                <p>Terima kasih atas kepercayaan Anda kepada kami. Kami berharap dapat bekerja sama dengan Anda untuk masa depan yang lebih baik.</p>
-                <p>Hormat kami,</p>
-                <p>Nama Kepala Sekolah</p>
-            </div>
-        </div>
-    </div>
+<!-- Bannner -->
+<section id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="promo-title">BEST DIGITAL AGENCY</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nemo omnis sunt illo reiciendis blanditiis quae ratione repellendus repudiandae nam!</p>
+				<a href="#"><img src="img/play.png" class="play-btn">Watch Tutorials</a>
+			</div>
+			<div class="col-md-6">
+				<img src="img/home2.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<img src="img/wave.png" class="bottom-img">
 </section>
+<!-- Akhir Banner -->
 
-
-<!-- Visi & Misi Section -->
-<section class="vision-mission">
-    <div class="container">
-        <h2>Visi & Misi</h2>
-        <div class="vision-mission-content">
-            <div class="vision">
-                <h3>Visi</h3>
-                <p>Menjadi lembaga pendidikan terkemuka yang menghasilkan lulusan berkualitas dan berakhlak mulia.</p>
-            </div>
-            <div class="mission">
-                <h3>Misi</h3>
-                <ul>
-                    <li>Menawarkan kurikulum yang inovatif dan relevan dengan perkembangan zaman.</li>
-                    <li>Menanamkan nilai-nilai moral dan etika dalam setiap kegiatan pembelajaran.</li>
-                    <li>Memberikan fasilitas dan sumber daya terbaik untuk mendukung proses pendidikan.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<!-- Services -->
+<section id="services">
+	<div class="container text-center">
+		<h1 class="title">WHAT WE DO ?</h1>
+		<div class="row text-center">
+			<div class="col-md-4 services">
+				<img src="img/services1.png" class="services-img">
+				<h4>Growth Marketing</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odio voluptatum error saepe nesciunt asperiores architecto neque autem, nostrum. Quos.</p>
+			</div>
+			<div class="col-md-4 services">
+				<img src="img/services2.png" class="services-img">
+				<h4>Online Brending</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odio voluptatum error saepe nesciunt asperiores architecto neque autem, nostrum. Quos.</p>
+			</div>
+			<div class="col-md-4 services">
+				<img src="img/services3.jpg" class="services-img">
+				<h4>Animeted Ads</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odio voluptatum error saepe nesciunt asperiores architecto neque autem, nostrum. Quos.</p>
+			</div>
+		</div>
+		<button type="button" class="btn btn-primary">All Services</button>
+	</div>
 </section>
+<!-- Akhir Services -->
 
 
-    <!-- Banner Section -->
-    <section class="banner">
-        <img src="https://picsum.photos/200/300" alt="Banner Sekolah" class="banner-image">
-        <div class="banner-text">
-            <h1>Selamat Datang di Sekolah Kami</h1>
-            <p>Mendidik Generasi Masa Depan dengan Keunggulan</p>
-        </div>
-    </section>
+<!-- About Us -->
+<section id="about-us">
+	<div class="container">
+		<h1 class="title text-center">WHY CHOOSE US ?</h1>
+		<div class="row">
+			<div class="col-md-6 about-us">
+				<p class="about-title">Why we're different</p>
+				<ul>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+					<li>Belive in doing business with honesty</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<img src="img/network.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Akhir About Us -->
 
-    <!-- About Section -->
-    <section class="about">
-        <h2>Tentang Kami</h2>
-        <p>Sekolah kami didedikasikan untuk memberikan pendidikan berkualitas tinggi kepada semua siswa. Kami memiliki berbagai program pendidikan yang dirancang untuk mengembangkan potensi siswa dalam berbagai bidang.</p>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery">
-        <h2>Galeri Sekolah</h2>
-        <div class="gallery-images">
-            <img src="https://picsum.photos/200/300" alt="Galeri 1" class="gallery-img">
-            <img src="https://picsum.photos/200/300" alt="Galeri 2" class="gallery-img">
-            <!-- Tambahkan gambar lainnya di sini -->
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <h2>Kontak Kami</h2>
-        <form action="contact-form/process-form.php" method="post" class="contact-form">
-            <input type="text" name="nama" placeholder="Nama" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="pesan" placeholder="Pesan" required></textarea>
-            <button type="submit">Kirim</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
+<!-- Testimonials -->
+<section id="testimonials">
+	<div class="container">
+		<h1 class="title text-center">WHAT CLIENTS SAY</h1>
+		<div class="row offset-1">
+			<div class="col-md-5 testimonials">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis unde eveniet velit aliquid, ea obcaecati deserunt provident minima pariatur!</p>
+				<img src="img/user1.jpg">
+				<p class="user-details"><b>Agelina</b><br> Co-founder at XYZ</p>
+			</div>
+			<div class="col-md-5 testimonials">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis unde eveniet velit aliquid, ea obcaecati deserunt provident minima pariatur!</p>
+				<img src="img/user1.jpg">
+				<p class="user-details"><b>Jhon Doe</b><br> Director at XYZ</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Akhir Testimonisal -->
 
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const prevButton = document.querySelector('.prev');
-        const nextButton = document.querySelector('.next');
-        const sliderWrapper = document.querySelector('.slider-wrapper');
-        let currentIndex = 0;
+<!-- Social Media Section -->
+<section id="social-media">
+	<div class="container text-center">
+		<p>FIND US ON SOCIAL MEDIA</p>
+	</div>
+	<div class="social-icon text-center">
+		<a href="#"><img src="img/facebook-icon.png"></a>
+		<a href="#"><img src="img/instagram-icon.png"></a>
+		<a href="#"><img src="img/twitter-icon.png"></a>
+		<a href="#"><img src="img/whatsapp-icon.png"></a>
+		<a href="#"><img src="img/linkedin-icon.png"></a>
+		<a href="#"><img src="img/snapchat-icon.png"></a>
+	</div>
+</section>
+<!-- Akhir Social Media Section -->
 
-        function updateSlider() {
-            const slideWidth = sliderWrapper.children[0].getBoundingClientRect().width;
-            sliderWrapper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-        }
 
-        prevButton.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateSlider();
-            }
-        });
+<!-- Footer -->
+<section id="footer">
+	<img src="img/wave2.png" class="footer-img">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 footer-box">
+				<h3 class="title-footer">Agency Web</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sapiente aspernatur amet illo suscipit mollitia quod iste, magnam in! Nulla sapiente et magnam necessitatibus in tempore, placeat voluptate rerum debitis.</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<h3 class="title-footer">CONTACT US</h3>
+				<p><i class="fa fa-map-marker"></i> World Trade Centre, Bangalore</p>
+				<p><i class="fa fa-phone"></i> +628765657</p>
+				<p><i class="fa fa-envelope-o"></i> Email@gmail.com</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<h3 class="title-footer">SUBSCRIBE NEWSLETTER</h3>
+				<input type="email" class="form-control" placeholder="Your Email">
+				<button type="button" class="btn btn-primary">Subscribe</button>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Website Create By Ridho Surya</p>
+	</div>
+</section>
+<!-- Akhir Footer -->
 
-        nextButton.addEventListener('click', () => {
-            if (currentIndex < sliderWrapper.children.length - 1) {
-                currentIndex++;
-                updateSlider();
-            }
-        });
 
-        // Set initial position
-        updateSlider();
-    });
+
+
+
+<!-- Smooth Scrooll -->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

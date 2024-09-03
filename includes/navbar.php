@@ -1,33 +1,27 @@
-<nav class="navbar">
-    <div class="container">
-        <a href="index.php" class="navbar-brand">
-            <img src="https://picsum.photos/50/50" alt="Logo Sekolah" class="logo">
-        </a>
-        <ul class="navbar-menu">
-            <li class="navbar-item"><a href="index.php" class="navbar-link">Beranda</a></li>
-            <li class="navbar-item dropdown">
-                <a href="#" class="navbar-link">Profil Sekolah</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="dkv.php" class="dropdown-link">DKV</a></li>
-                    <li class="dropdown-item"><a href="usaha-layanan-masyarakat.php" class="dropdown-link">Usaha Layanan Masyarakat</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sekolah Kami</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="navbar-item dropdown">
-                <a href="#" class="navbar-link">Kompetensi Keahlian</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="desain-komunikasi-visual.php" class="dropdown-link">DKV</a></li>
-                    <li class="dropdown-item"><a href="usaha-layanan-masyarakat.php" class="dropdown-link">Usaha Layanan Masyarakat</a></li>
-                </ul>
-            </li>
-            <li class="navbar-item dropdown">
-                <a href="#" class="navbar-link">Info</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="dkv.php" class="dropdown-link">DKV</a></li>
-                    <li class="dropdown-item"><a href="usaha-layanan-masyarakat.php" class="dropdown-link">Usaha Layanan Masyarakat</a></li>
-                </ul>
-            </li>
-            <li class="navbar-item"><a href="contact.php" class="navbar-link">Galeri</a></li>
-            <li class="navbar-item"><a href="contact.php" class="navbar-link">Kontak</a></li>
-        </ul>
-    </div>
-</nav>
+            </div>
+        </div>
+    </nav>
