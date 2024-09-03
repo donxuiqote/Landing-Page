@@ -8,7 +8,7 @@ section{
 }
 
 .navbar{
-  background-color: antiquewhite;
+  background-color: #fefefe;
 }
 
 .navbar li{
@@ -18,14 +18,16 @@ section{
 .navbar li:hover{
   background-color: #03a04e;
   border-radius: 0.5rem;
-  a{
-  color: #fefefe;
-  font-weight: 400;
-  }
+
 }
 
+.navbar li a:hover{
+  color:#fefefe
+
+}
 
 *{
   font-family: "Anek Devanagari", sans-serif;
   font-optical-sizing: auto;
 }
+

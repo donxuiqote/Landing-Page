@@ -60,7 +60,7 @@
     </section>
 
     <!-- Sambutan Kepala Sekolah -->
-    <section class="container py-5 text-center">
+    <section class="container text-center py-5">
         <h2>Sambutan Kepala Sekolah</h2>
         <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
         <img src="https://picsum.photos/150/150" alt="Kepala Sekolah" class="rounded-circle my-3">
@@ -68,7 +68,7 @@
     </section>
 
     <!-- Visi & Misi -->
-    <section class="bg-light py-5">
+    <section class="bg-light ">
         <div class="container">
             <h2 class="text-center">Visi & Misi</h2>
             <div class="row mt-4">
@@ -89,7 +89,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="container py-5">
+    <section class="container py">
         <h2 class="text-center">Tentang Kami</h2>
         <p class="text-center">Sekolah kami berdedikasi untuk memberikan pendidikan yang berkualitas tinggi kepada semua siswa. Kami memiliki berbagai program yang dirancang untuk mengembangkan potensi siswa dalam berbagai bidang.</p>
     </section>
