@@ -15,7 +15,7 @@
             <li class="navbar-item dropdown">
                 <a href="#" class="navbar-link">Kompetensi Keahlian</a>
                 <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="dkv.php" class="dropdown-link">DKV</a></li>
+                    <li class="dropdown-item"><a href="desain-komunikasi-visual.php" class="dropdown-link">DKV</a></li>
                     <li class="dropdown-item"><a href="usaha-layanan-masyarakat.php" class="dropdown-link">Usaha Layanan Masyarakat</a></li>
                 </ul>
             </li>

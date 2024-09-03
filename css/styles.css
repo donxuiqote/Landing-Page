@@ -168,3 +168,81 @@ section{
 .next {
     right: 10px;
 }
+
+ul{
+    list-style-type: none;
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    flex: 1;
+    margin: 10px 20px;
+    min-width: 250px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #dddddd;
+}
+
+.footer-contact p strong {
+    display: inline-block;
+    width: 70px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+
+.vision-mission{
+    display: flex;
+}
+
+.vision-mission-content{
+    
+}
