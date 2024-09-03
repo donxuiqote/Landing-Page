@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +14,25 @@
         .header-slider {
             position: relative;
         }
+
         .carousel-item img {
             object-fit: cover;
             height: 500px;
         }
+
         .vision-mission-content {
             display: flex;
             justify-content: space-between;
         }
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
-     <section class="navbar">
-     <?php include 'includes/navbar.php'; ?>
+    <section class="navbar">
+        <?php include 'includes/navbar.php'; ?>
 
-     </section>
+    </section>
     <!-- Header Slider -->
     <section class="header-slider">
         <div id="schoolCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -60,11 +64,45 @@
     </section>
 
     <!-- Sambutan Kepala Sekolah -->
-    <section class="container text-center py-5">
-        <h2>Sambutan Kepala Sekolah</h2>
-        <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
-        <img src="https://picsum.photos/150/150" alt="Kepala Sekolah" class="rounded-circle my-3">
-        <p class="text-muted">Nama Kepala Sekolah</p>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+            <h2>Sambutan Kepala Sekolah</h2>
+                <img src="https://picsum.photos/150/150" alt="Kepala Sekolah" class="my-3">
+            <p class="text-muted">Nama Kepala Sekolah</p>
+                <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
+            </div>
+            <div class="col-md-6 mb-4 vertical-line">
+            <h2>Informasi</h2>
+                <div class="row">
+                    <div class="col-md-6 order-md-2 mb-2">
+                        <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead">Komfp.</p>
+                        <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 order-md-2 mb-2">
+                        <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead">Komfp.</p>
+                        <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 order-md-2 mb-2">
+                        <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead">Komfp.</p>
+                        <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Visi & Misi -->
@@ -85,8 +123,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="container d-flex align-items-center justify-content-center py-4"> 
-            <object data="assets/images/undraw_books_re_8gea.svg" type="image/svg+xml" class="undraw"></object>
+            <div class="container d-flex align-items-center justify-content-center py-4">
+                <object data="assets/images/undraw_books_re_8gea.svg" type="image/svg+xml" width="250" height="250"></object>
             </div>
         </div>
     </section>
@@ -122,4 +160,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
