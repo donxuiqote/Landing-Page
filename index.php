@@ -85,11 +85,14 @@
                     </ul>
                 </div>
             </div>
+            <div class="container d-flex align-items-center justify-content-center py-4"> 
+            <object data="assets/images/undraw_books_re_8gea.svg" type="image/svg+xml" class="undraw"></object>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="container py">
+    <section class="container pb-4">
         <h2 class="text-center">Tentang Kami</h2>
         <p class="text-center">Sekolah kami berdedikasi untuk memberikan pendidikan yang berkualitas tinggi kepada semua siswa. Kami memiliki berbagai program yang dirancang untuk mengembangkan potensi siswa dalam berbagai bidang.</p>
     </section>
