@@ -7,32 +7,86 @@ section{
   padding-top: 3.5rem;
 }
 
-
-
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .navbar{
   background-color: #fefefe;
 }
 
-.navbar li{
-  padding: 0.5rem;
-}
 
-.navbar li:hover{
+.nav-item li a:hover{
   background-color: #03a04e;
-  border-radius: 0.5rem;
 
 }
+.nav-item ul{
+padding: 0;
+}
 
-.navbar li a:hover{
+.nav-item li a:hover{
   color:#fefefe
 
 }
 
 *{
-  font-family: "Anek Devanagari", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
 
 .vertical-line {
   border-left: solid #8f8f8f 1px;
+}
+
+.horizontal-line{
+  border-bottom: solid #8f8f8f 1px;
+}
+
+.content{}
+
+.header{
+  background: linear-gradient(45deg, #03a04e, #faf204, #a1bfad);
+  padding-top:5.5rem;
+  padding-bottom:5rem;
+
+}
+
+
+
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Optional: Adjust the background for better readability */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5, .carousel-caption p, .carousel-caption a {
+  color: #fff;
+}
+
+/* Style for the button */
+.carousel-caption .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.carousel-caption .button:hover {
+  background-color: #0056b3;
 }
