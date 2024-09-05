@@ -13,17 +13,25 @@ li{
   padding: 0;
 }
 .navbar{
-  background-color: #36c47a;
-  font-weight:400;
+  background-color: #fefefe;
 }
 
-.navbar ul li a:hover{
-  background-color: #36c47a;
+navbar-nav li{
+}
 
+.nav-link{
+  color: #005f2e !important;
+  font-size: 0.95rem !important;
+} 
+
+.navbar-brand {
+  font-weight: 500 !important;
+  color: #005f2e !important;
+  
 }
 
 .bg-footer{
-  background-color: #03a04e;
+  background-color: #005f2e;
 
 }
 
@@ -32,9 +40,12 @@ li{
 
 }
 .nav-item ul{
-padding: 0;
 }
 
+.nav-item li a{
+  color: #005f2e !important;
+
+}
 .nav-item li a:hover{
   color:#fefefe
 
@@ -94,15 +105,15 @@ padding: 0;
   display: inline-block;
   padding: 10px 20px;
   margin-top: 10px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
+  background-color: #03a04f00;
+  border: solid #03a04e 2px;
   border-radius: 5px;
   text-decoration: none;
+  color: #fefefe;
 }
 
 .carousel-caption .button:hover {
-  background-color: #0056b3;
+  background-color: #03a04e;
 }
 
 .btn-program{
@@ -118,4 +129,16 @@ padding: 0;
 .logo-tentang{
   width: 50vw;
   max-width: 15rem;
+}
+
+.bg-section1{
+
+}
+
+.bg-section2{
+  background-color: #faf20486;
+}
+
+.kotak{
+  bord 
 }

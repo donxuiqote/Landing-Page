@@ -43,7 +43,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Selamat Datang di Sekolah Kami</h5>
                         <p>Mendidik generasi masa depan dengan keunggulan.</p>
-                        <a class="btn btn-program" href="#">Pelajari lebih lanjut</a>
+                        <a class="button" href="#">Pelajari lebih lanjut</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -65,7 +65,20 @@
             </button>
         </div>
     </section>
-
+    <section id="stats">
+        <div class="stat">
+            <h2 id="jumlah-siswa">0</h2>
+            <p>Jumlah Siswa</p>
+        </div>
+        <div class="stat">
+            <h2 id="tenaga-pendidik">0</h2>
+            <p>Tenaga Pendidik</p>
+        </div>
+        <div class="stat">
+            <h2 id="tata-usaha">0</h2>
+            <p>Tata Usaha</p>
+        </div>
+    </section>
 
     <!-- Sambutan Kepala Sekolah -->
     <section class="bg-light ">
@@ -113,7 +126,7 @@
 
 
     <!-- About Section -->
-    <section class="">
+    <section class="bg-section2">
         <div class="container py-4 text-center">
             <img src="assets/images/logo.png" alt="Logo SMK TANADA" class="logo-tentang">
             <h2 class="mt-4">Tentang Kami</h2>
@@ -226,8 +239,9 @@
     <?php include 'includes/footer.php'; ?>
 
 
-
+    <script src="javascript/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

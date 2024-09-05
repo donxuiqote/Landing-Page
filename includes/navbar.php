@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
-    <div class="container nav p-2">
+    <div class="container nav">
         <a class="navbar-brand align-items-center" href="/">
             <img src="assets/images/logo.png" class="logo" alt="Logo SMK TANADA">
             SMK TANADA
@@ -17,6 +17,7 @@
                         Profil
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="kotak"></div>
                         <li><a class="dropdown-item" href="#">Visi Misi</a></li>
                         <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
 
