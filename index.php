@@ -14,17 +14,41 @@
     <style>
         .header-slider {
             position: relative;
+            width: 100vw;
+            /* Full viewport width */
+            height: 100vh;
+            /* Full viewport height */
+            overflow: hidden;
+            /* Prevent overflow */
+        }
+
+        .carousel-item {
+            height: 100vh;
+            /* Full viewport height */
         }
 
         .carousel-item img {
+            height: 100%;
+            /* Ensures the image covers the height of the carousel item */
+            width: 100%;
+            /* Ensures the image covers the width of the carousel item */
             object-fit: cover;
-            height: 500px;
+            /* Maintain aspect ratio while covering the area */
         }
 
-        .vision-mission-content {
-            display: flex;
-            justify-content: space-between;
+        .carousel-caption {
+            display: none;
+            /* Hide the caption */
         }
+
+        /* Optional: hide carousel controls if not needed */
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: block;
+            /* Show the carousel controls */
+        }
+
+
     </style>
 </head>
 
@@ -33,26 +57,15 @@
 
     <?php include 'includes/navbar.php'; ?>
 
-    </section class="content">
     <!-- Header Slider -->
     <section class="header-slider">
         <div id="schoolCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://picsum.photos/1920/500?random=1" class="d-block w-100" alt="Gambar Slider 1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Selamat Datang di Sekolah Kami</h5>
-                        <p>Mendidik generasi masa depan dengan keunggulan.</p>
-                        <a class="button" href="#">Pelajari lebih lanjut</a>
-                    </div>
+                    <img src="assets/images/tanada.jpeg" class="d-block w-100" alt="Gambar Slider 1">
                 </div>
                 <div class="carousel-item">
                     <img src="https://picsum.photos/1920/500?random=2" class="d-block w-100" alt="Gambar Slider 2">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Pendidikan Berkualitas</h5>
-                        <p>Kami menyediakan program pendidikan terbaik.</p>
-                        <a class="btn btn-program" href="#">Pelajari lebih lanjut</a>
-                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#schoolCarousel" data-bs-slide="prev">
@@ -65,83 +78,99 @@
             </button>
         </div>
     </section>
-    <section id="stats">
-        <div class="stat">
-            <h2 id="jumlah-siswa">0</h2>
-            <p>Jumlah Siswa</p>
-        </div>
-        <div class="stat">
-            <h2 id="tenaga-pendidik">0</h2>
-            <p>Tenaga Pendidik</p>
-        </div>
-        <div class="stat">
-            <h2 id="tata-usaha">0</h2>
-            <p>Tata Usaha</p>
+
+    <section class="news-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Informasi</h2>
+            </div>
+            <div class="news-container">
+                <div class="news-card">
+                    <img src="https://picsum.photos/800/400" alt="News Image">
+                    <div class="news-card-body">
+                        <h3 class="news-title">Judul Berita</h3>
+                        <p class="news-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, justo et facilisis facilisis, nisl quam feugiat erat, ac condimentum lectus tortor non dui. Integer malesuada orci sit amet lacus malesuada, a congue felis pharetra. Aliquam erat volutpat. Vestibulum quis urna vel tortor ornare vehicula ut nec nulla.
+                        </p>
+                        <div class="news-footer">
+                            <a href="#" class="read-more">Read more</a>
+                            <span class="date">September 5, 2024</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://picsum.photos/800/400" alt="News Image">
+                    <div class="news-card-body">
+                        <h3 class="news-title">Judul Berita</h3>
+                        <p class="news-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, justo et facilisis facilisis, nisl quam feugiat erat, ac condimentum lectus tortor non dui. Integer malesuada orci sit amet lacus malesuada, a congue felis pharetra. Aliquam erat volutpat. Vestibulum quis urna vel tortor ornare vehicula ut nec nulla.
+                        </p>
+                        <div class="news-footer">
+                            <a href="#" class="read-more">Read more</a>
+                            <span class="date">September 5, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://picsum.photos/800/400" alt="News Image">
+                    <div class="news-card-body">
+                        <h3 class="news-title">Judul Berita</h3>
+                        <p class="news-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, justo et facilisis facilisis, nisl quam feugiat erat, ac condimentum lectus tortor non dui. Integer malesuada orci sit amet lacus malesuada, a congue felis pharetra. Aliquam erat volutpat. Vestibulum quis urna vel tortor ornare vehicula ut nec nulla.
+                        </p>
+                        <div class="news-footer">
+                            <a href="#" class="read-more">Read more</a>
+                            <span class="date">September 5, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak berita di sini -->
+            </div>
         </div>
     </section>
 
+
+
     <!-- Sambutan Kepala Sekolah -->
-    <section class="bg-light ">
-        <div class="container">
+    <section class="sambutan">
+        <div class="container semua-section">
             <div class="row">
-                <div class="col-md-6 mb-4 py-5">
-                    <h2>Sambutan Kepala Sekolah</h2>
-                    <img src="https://picsum.photos/150/150" alt="Kepala Sekolah" class="my-3">
+                <div class="text-center">
+                    <div class="col">
+                        <h2>Sambutan Kepala Sekolah</h2>
+                    </div>
+                    <img src="https://picsum.photos/200/200" alt="Kepala Sekolah" class="my-3 rounded-circle">
                     <p class="text-muted">Nama Kepala Sekolah</p>
                     <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
-                </div>
-                <div class="col-md-6 mb-4 py-5 vertical-line">
-                    <h2>Informasi</h2>
-                    <div class="row">
-                        <div class="col-md-6 order-md-2 mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
-                        </div>
-                        <div class="col-md-6">
-                            <p class="lead">Komfp.</p>
-                            <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 order-md-2 mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
-                        </div>
-                        <div class="col-md-6">
-                            <p class="lead">Komfp.</p>
-                            <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 order-md-2 mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
-                        </div>
-                        <div class="col-md-6">
-                            <p class="lead">Komfp.</p>
-                            <p class="text-muted">Nama Kepala Sekolah</p><!--  -->
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
+
     <!-- About Section -->
-    <section class="bg-section2">
-        <div class="container py-4 text-center">
-            <img src="assets/images/logo.png" alt="Logo SMK TANADA" class="logo-tentang">
+    <section class="">
+        <div class="container py-4 text-center semua-section">
+            <div class="">
+                <img src="assets/images/logo.png" alt="Logo SMK TANADA" class="logo-tentang">
+            </div>
             <h2 class="mt-4">Tentang Kami</h2>
             <p class="">
                 SMK TANADA didirikan oleh Yayasan TANADA yang merupakan pengembangan dari TK, MI, MTS, dan MA.
-                SMK TANADA hadir dengan metode pembelajaran yang tidak hanya membekali siswa dibidang akademik saja tetapi juga membekali keterampilan dan agama. Pola pendidikan diarahkan pada penggalian potensi siwa secara maksimal dengan memanfaatkan potensi dan fasilitas yang dimiliki siswa. para lulusan betul-betul diproyeksikan pada penguasaan kemampuan dan keterampilan untuk mandiri dan dapat memenangkan persaingan di dunia kerja dan mampu berkarya dalam kehidupan bermasyarakat.</p>
+                SMK TANADA hadir dengan metode pembelajaran yang tidak hanya membekali siswa dibidang akademik saja tetapi juga membekali keterampilan dan agama. Pola pendidikan diarahkan pada penggalian potensi siwa secara maksimal dengan memanfaatkan potensi dan fasilitas yang dimiliki siswa. para lulusan betul-betul diproyeksikan pada penguasaan kemampuan dan keterampilan untuk mandiri dan dapat memenangkan persaingan di dunia kerja dan mampu berkarya dalam kehidupan bermasyarakat.
+            </p>
         </div>
     </section>
 
+
     <!-- Visi & Misi -->
-    <section class="bg-light">
-        <div class="container">
+    <section class="">
+        <div class="container semua-section">
             <div class="row mt-4">
                 <div class="col-md-6">
-                    <h3 class="text-center">Visi</h3>
+                    . <h3 class="text-center">Visi</h3>
                     <p>Menjadi sekolah unggulan di Sidoarjo dengan menghasilkan lulusan yang takwa, cerdas dan kompetitif.</p>
                 </div>
                 <div class="col-md-6">
@@ -159,11 +188,28 @@
         </div>
     </section>
 
-
+    <section class="" id="stats">
+        <div class="row text-center semua-section">
+            <div class="stat col-md-4">
+                <h2 id="jumlah-siswa">0</h2>
+                <p>Jumlah Siswa</p>
+            </div>
+            <div class="stat col-md-4">
+                <h2 id="tenaga-pendidik">0</h2>
+                <p>Tenaga Pendidik</p>
+            </div>
+            <div class="stat col-md-4">
+                <h2 id="tata-usaha">0</h2>
+                <p>Tata Usaha</p>
+            </div>
+        </div>
+    </section>
 
     <section class="program-section">
-        <div class="container">
-            <h2 class="text-center mb-4">Program Jurusan</h2>
+        <div class="container semua-section">
+            <div class="text-center">
+                <h2 class="">Program Jurusan</h2>
+            </div>
             <div class="row">
                 <!-- Usaha Layanan Wisata Card -->
                 <div class="col-md-6 mb-4">
@@ -201,9 +247,11 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="py-5  bg-light">
-        <div class="container">
-            <h2 class="text-center">Galeri Sekolah</h2>
+    <section class="">
+        <div class="semua-section  container">
+            <div class="text-center">
+                <h2 class="text-center">Galeri Sekolah</h2>
+            </div>
             <div class="row text-center mt-4">
                 <div class="col-md-4">
                     <img src="https://picsum.photos/350/250?random=1" class="img-fluid galeri rounded mb-3" alt="Galeri 1">

@@ -20,7 +20,7 @@
 
     </section>
 
-    <section class="content text-center mt-1">
+    <section class="content text-center ">
         <div class="header">
             <H1>SMK TANADA</H1>
         </div>

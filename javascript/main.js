@@ -24,3 +24,17 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCounter();
     });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) { // Adjust the scroll position as needed
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+});
