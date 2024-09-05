@@ -1,5 +1,5 @@
 <!-- Footer Section -->
-<footer class="footer py-4 bg-dark text-white">
+<footer class="footer py-4 bg-footer text-white">
     <div class="mx-4">
         <div class="row">
             <div class="col-md-6 py-4">

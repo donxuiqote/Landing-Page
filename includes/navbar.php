@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
     <div class="container nav p-2">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand align-items-center" href="/">
             <img src="assets/images/logo.png" class="logo" alt="Logo SMK TANADA">
             SMK TANADA
         </a>

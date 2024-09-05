@@ -13,11 +13,21 @@ li{
   padding: 0;
 }
 .navbar{
-  background-color: #fefefe;
+  background-color: #36c47a;
+  font-weight:400;
 }
 
+.navbar ul li a:hover{
+  background-color: #36c47a;
 
-.nav-item li a:hover{
+}
+
+.bg-footer{
+  background-color: #03a04e;
+
+}
+
+.nav-item li a:hover {
   background-color: #03a04e;
 
 }
@@ -51,8 +61,12 @@ padding: 0;
   padding-bottom:5rem;
 
 }
-
-
+.galeri{
+  transition: transform .025s ease;
+}
+.galeri:hover{
+  transform: scale(1.25);
+}
 
 
 .carousel-item {
@@ -89,4 +103,19 @@ padding: 0;
 
 .carousel-caption .button:hover {
   background-color: #0056b3;
+}
+
+.btn-program{
+  background-color: #03a04e !important;
+  color: #fefefe !important;
+}
+
+.btn-program:hover{
+  background-color: #fefefe !important;
+  color: #03a04e !important;
+}
+
+.logo-tentang{
+  width: 50vw;
+  max-width: 15rem;
 }
