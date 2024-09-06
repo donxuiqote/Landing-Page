@@ -32,17 +32,15 @@
   transform: scale(0.8);
 }
 
-
-.nav{
-  margin: 2rem
-
+.vimi-card{
+  transition: transform 0.25s ease;
+  padding: 20px;
 }
-
-.nav-link {
-  font-size: 0.95rem !important;
+.vimi-card:hover{
+  transform: scale(1.05);
+  background-color: #03a04f75;
+  border-radius: 2rem;
 }
-
-
 
 .nav-item li a:hover {
   border-bottom: #03a04e;
@@ -64,17 +62,14 @@
   color: #faf204;
 }
 
-.semua-section {
-  margin-top: 5rem !important;
-  margin-bottom: 5rem !important;
-}
-
 
 li {
   list-style-type: none;
 }
 
-
+section{
+  margin-bottom: 10rem;
+}
 
 .bg-footer{
   background-color: #005f2e;
@@ -165,7 +160,7 @@ li {
 
 
 div h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 h2, .read-more{
@@ -256,4 +251,15 @@ h2, .read-more{
   .news-card {
       flex: 1 1 100%; /* 1 kolom pada layar kecil */
   }
+}
+
+.bgm{
+  background-image: url("https://picsum.photos/200/300");
+  background-size: cover; /* Scale the background image to cover the entire page */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background image fixed with regard to the viewport */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Ensure the body takes full height of the viewport */
+  mix-blend-mode: multiply;
 }

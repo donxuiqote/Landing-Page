@@ -133,7 +133,7 @@
 
 
     <!-- Sambutan Kepala Sekolah -->
-    <section class="sambutan">
+    <section class="bgm">
         <div class="container semua-section">
             <div class="row">
                 <div class="text-center">
@@ -167,19 +167,19 @@
 
     <!-- Visi & Misi -->
     <section class="">
-        <div class="container semua-section">
+        <div class="container text-center">
             <div class="row mt-4">
-                <div class="col-md-6">
-                    . <h3 class="text-center">Visi</h3>
+                <div class="col-md-6 vimi-card container">
+                    . <h3 class="">Visi</h3>
                     <p>Menjadi sekolah unggulan di Sidoarjo dengan menghasilkan lulusan yang takwa, cerdas dan kompetitif.</p>
                 </div>
-                <div class="col-md-6">
-                    <h3 class="text-center">Misi</h3>
-                    <ul>
-                        <li>Memberikan pendidikan berkualitas yang berorientasi pada perkembangan zaman.</li>
-                        <li>Membentuk karakter siswa dengan nilai-nilai moral dan etika.</li>
-                        <li>Mengembangkan kreativitas dan potensi siswa dalam berbagai bidang.</li>
-                    </ul>
+                <div class="col-md-6 vimi-card container">
+                    <h3 class="">Misi</h3>
+                    <p>
+                        Memberikan pendidikan berkualitas yang berorientasi pada perkembangan zaman.
+                        Membentuk karakter siswa dengan nilai-nilai moral dan etika.
+                        Mengembangkan kreativitas dan potensi siswa dalam berbagai bidang.
+                    </p>
                 </div>
             </div>
             <div class="container d-flex align-items-center justify-content-center py-4">
