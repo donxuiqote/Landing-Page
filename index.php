@@ -58,7 +58,7 @@
     <?php include 'includes/navbar.php'; ?>
 
     <!-- Header Slider -->
-    <section class="header-slider">
+    <div class="header-slider">
         <div id="schoolCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -77,8 +77,22 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
+        <!-- Sambutan Kepala Sekolah -->
+        <section class="">
+        <div class="container semua-section">
+            <div class="row">
+                <div class="text-center">
+                    <div class="col">
+                        <h2>Sambutan Kepala Sekolah</h2>
+                    </div>
+                    <img src="https://picsum.photos/200/200" alt="Kepala Sekolah" class="my-3 rounded-circle">
+                    <p class="text-muted">Nama Kepala Sekolah</p>
+                    <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
+                </div>
+            </div>
+        </div>
     </section>
-
     <section class="news-section">
         <div class="container">
             <div class="text-center">
@@ -111,6 +125,18 @@
                             <span class="date">September 5, 2024</span>
                         </div>
                     </div>
+                </div>                <div class="news-card">
+                    <img src="https://picsum.photos/800/400" alt="News Image">
+                    <div class="news-card-body">
+                        <h3 class="news-title">Judul Berita</h3>
+                        <p class="news-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, justo et facilisis facilisis, nisl quam feugiat erat, ac condimentum lectus tortor non dui. Integer malesuada orci sit amet lacus malesuada, a congue felis pharetra. Aliquam erat volutpat. Vestibulum quis urna vel tortor ornare vehicula ut nec nulla.
+                        </p>
+                        <div class="news-footer">
+                            <a href="#" class="read-more">Read more</a>
+                            <span class="date">September 5, 2024</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="news-card">
                     <img src="https://picsum.photos/800/400" alt="News Image">
@@ -130,28 +156,8 @@
         </div>
     </section>
 
-
-
-    <!-- Sambutan Kepala Sekolah -->
-    <section class="bgm">
-        <div class="container semua-section">
-            <div class="row">
-                <div class="text-center">
-                    <div class="col">
-                        <h2>Sambutan Kepala Sekolah</h2>
-                    </div>
-                    <img src="https://picsum.photos/200/200" alt="Kepala Sekolah" class="my-3 rounded-circle">
-                    <p class="text-muted">Nama Kepala Sekolah</p>
-                    <p class="lead">Kami berkomitmen untuk menyediakan pendidikan terbaik bagi setiap siswa. Kami percaya bahwa setiap anak memiliki potensi untuk berkembang dengan bimbingan yang tepat.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
     <!-- About Section -->
-    <section class="">
+    <section class="bgm">
         <div class="container py-4 text-center semua-section">
             <div class="">
                 <img src="assets/images/logo.png" alt="Logo SMK TANADA" class="logo-tentang">
@@ -165,9 +171,13 @@
     </section>
 
 
+
+
     <!-- Visi & Misi -->
     <section class="">
         <div class="container text-center">
+        <h2>Visi & Misi</h2>
+
             <div class="row mt-4">
                 <div class="col-md-6 vimi-card container">
                     . <h3 class="">Visi</h3>
@@ -188,7 +198,7 @@
         </div>
     </section>
 
-    <section class="" id="stats">
+    <section class="bgm" id="stats">
         <div class="row text-center semua-section">
             <div class="stat col-md-4">
                 <h2 id="jumlah-siswa">0</h2>
@@ -221,7 +231,7 @@
                             <h5 class="card-title">Usaha Layanan Wisata</h5>
                             <p class="card-text"> Menyediakan keterampilan dalam manajemen pariwisata, perencanaan perjalanan, dan pelayanan pelanggan dengan fokus pada pengalaman praktis.</p>
                             <div class="text-end">
-                                <a href="#" class="btn btn-program">Pelajari Lebih Lanjut</a>
+                                <a href="#" class="btn btn-program">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
