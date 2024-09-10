@@ -1,38 +1,384 @@
-.logo{
-  max-width: 2rem;
-  max-height: 2rem;
+.logo {
+  max-width: 8rem;
+  transition: transform 2s ease;
+  max-height: 8rem;
+}
+
+.navbar {
+  transition: background-color 0.5s ease; 
+  text-decoration: none;
+}
+.navbar a {
+  font-weight: 600;
+  transition: transform 2s ease;
+  font-size: 1rem !important;
+  color: #fefefe; 
+}
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 1); 
+}
+.navbar.scrolled a{
+  transform: scale(0.8);
+  color: #000;
+}
+.navbar.scrolled .dropdown-menu a{
+  color: #fefefe;
+}
+.navbar.scrolled .dropdown-menu a:hover{
+  color: #faf204;
+}
+
+.navbar.scrolled img{
+  transform: scale(0.8);
+}
+
+.vimi-card{
+  transition: transform 0.25s ease;
+  padding: 20px;
+}
+.vimi-card:hover{
+  transform: scale(1.05);
+  background-color: #03a04f75;
+  border-radius: 2rem;
+}
+
+.nav-item li a:hover {
+  border-bottom: #03a04e;
+  background-color: transparent !important;
+}
+
+.dropdown-menu{
+  background-color: #0000008c !important;
+  border-radius: 8px !important;
+}
+
+.dropdown-menu li a{
+  padding: 1rem;
+  color: #fefefe;
+}
+
+
+.dropdown-menu li a:hover{
+  color: #faf204;
+}
+
+
+li {
+  list-style-type: none;
 }
 
 section{
-  padding-top: 3.5rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+  align-items: center;  display: flex;              /* Menyatakan bahwa section adalah flex container */
+  justify-content: center;    /* Mengatur konten anak secara horizontal (tengah) */
+  align-items: center; 
+}
+
+.bg-footer{
+  background-color: #005f2e;
+
+}
+
+.guru1{
+  text-align: center;
+}
+
+.guru h5{
+  font-size: 1rem;
+}
+
+.guru h4{
+  font-size: 1.05rem;
+}
+
+.guru{
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 992px){
+  .guru2{
+    padding: 0 2rem 0 2rem;
+  }
 }
 
 
 
-.navbar{
-  background-color: #fefefe;
-}
-
-.navbar li{
-  padding: 0.5rem;
-}
-
-.navbar li:hover{
-  background-color: #03a04e;
-  border-radius: 0.5rem;
-
-}
-
-.navbar li a:hover{
-  color:#fefefe
-
-}
 
 *{
-  font-family: "Anek Devanagari", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
 
 .vertical-line {
   border-left: solid #8f8f8f 1px;
+}
+
+.horizontal-line{
+  border-bottom: solid #8f8f8f 1px;
+}
+
+
+.header{
+  background: linear-gradient(45deg, #03a04e, #faf204, #a1bfad);
+  padding-top:18rem;
+  padding-bottom:18rem;
+
+}
+.galeri{
+  transition: transform .025s ease;
+}
+.galeri:hover{
+  transform: scale(1.25);
+}
+
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Optional: Adjust the background for better readability */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5, .carousel-caption p, .carousel-caption a {
+  color: #fff;
+}
+
+/* Style for the button */
+.carousel-caption .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #03a04f00;
+  border: solid #03a04e 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.carousel-caption .button:hover {
+  background-color: #03a04e;
+}
+
+.btn-program{
+  background-color: #fefefe !important;
+  color: #03a04e !important;
+}
+
+.btn-program:hover{
+  background-color: #03a04e !important;
+  color: #fefefe !important;
+}
+
+.logo-tentang{
+  width: 50vw;
+  max-width: 15rem;
+}
+
+
+
+div h2 {
+  margin-bottom: 3rem;
+}
+
+h2, .read-more{
+  padding-bottom: 1rem;
+  font-weight: 800 !important;
+  border-bottom: 5px solid green;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+
+.bg-section2{
+  background-color: #faf20486;
+}
+
+
+
+.news-section {
+  padding: 2rem;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.news-card {
+  flex: 1 1 calc(50% - 1.5rem); /* 2 kolom pada layar besar */
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 0.25rem;
+  height: auto;
+}
+
+.news-card-body {
+  padding: 1rem;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-content {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Jumlah baris yang ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-footer {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.news-footer span{
+  margin-left: 20px;
+}
+
+.news-footer .read-more {
+  color: #555;
+  text-decoration: none;
+}
+
+.news-footer .date {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 992px) {
+  .news-card {
+      flex: 1 1 calc(50% - 1.5rem); /* 2 kolom pada layar menengah */
+  }
+}
+
+@media (max-width: 768px) {
+  .news-card {
+      flex: 1 1 100%; /* 1 kolom pada layar kecil */
+  }
+}
+
+.bgm{
+  background:linear-gradient(0deg, #03a04fef, #faf204af), url('https://scontent.fsub32-2.fna.fbcdn.net/v/t39.30808-6/455811574_811361184477612_5609635733827927980_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=53MhCsaO2ScQ7kNvgFEyD0D&_nc_ht=scontent.fsub32-2.fna&oh=00_AYCCKFi_ByJ6dfopfsvCuMowR6kROnYFg9DEPj1Q_9VFVQ&oe=66E0ABF6');
+  background-size: cover; /* Scale the background image to cover the entire page */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background image fixed with regard to the viewport */
+  margin: 0; /* Remove default margin */
+  color:#fefefe;
+  font-weight: 600;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+
+
+.judul-informasi{
+  font-size: 0.85rem;
+  font-weight: 200;
+  text-align: start;
+}
+
+.content-informasi{
+  font-weight: 100;
+  text-align: start;
+  font-size: 0.75rem;
+}
+
+.read-more-informasi{
+  padding-bottom: 1rem;
+  font-weight: 200 !important;
+  border-bottom: 2px solid green;
+  padding-bottom: 0.1rem;
+  display: inline-block;
+  color: #555;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.news-footer span{
+  font-weight: 200;
+  font-size: 0.75rem;
+  display: inline-block;}
+
+.Informasi p{
+  padding: 0;
+  margin: 0;
+}
+
+.contents{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content{
+  padding:0;
+}
+
+.fasilitas-item {
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+}
+.fasilitas-item:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+.fasilitas-item i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.fasilitas-item h4 {
+  font-size: 1.25rem !important;
+}
+
+
+.fasilitas-item h4 {
+  margin: 0;
+}
+
+.gallery {
+  display: none;
+  margin-top: 1rem;
+  overflow: hidden;
+
+}
+.gallery img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.gallery.active {
+  display: block;
+}
+.active {
+  border-color: #007bff;
 }
