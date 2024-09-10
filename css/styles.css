@@ -84,6 +84,27 @@ section{
   text-align: center;
 }
 
+.guru h5{
+  font-size: 1rem;
+}
+
+.guru h4{
+  font-size: 1.05rem;
+}
+
+.guru{
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 992px){
+  .guru2{
+    padding: 0 2rem 0 2rem;
+  }
+}
+
+
+
+
 *{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -314,4 +335,50 @@ h2, .read-more{
 
 .content{
   padding:0;
+}
+
+.fasilitas-item {
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+}
+.fasilitas-item:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+.fasilitas-item i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.fasilitas-item h4 {
+  font-size: 1.25rem !important;
+}
+
+
+.fasilitas-item h4 {
+  margin: 0;
+}
+
+.gallery {
+  display: none;
+  margin-top: 1rem;
+  overflow: hidden;
+
+}
+.gallery img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.gallery.active {
+  display: block;
+}
+.active {
+  border-color: #007bff;
 }

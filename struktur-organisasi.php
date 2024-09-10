@@ -25,71 +25,70 @@
 
         <section>
             <div class="row py-5">
-            <div class="col-md-8 text-center">
+            <div class="col-md-8 text-center mb-5">
                     <div class="col">
                         <h2>Struktur Organisasi</h2>
-                        <p> Menjadi Sekolah Unggulan di Kota Sidoarjo dengan Menghasilkan Lulusan yang Taqwa, Cerdas dan Kompetitif </p>
                         <div class="guru-content">
-                            <div class="guru1">
+                            <div class="guru1 pb-5">
                                 <div class="guru">
                                     <div class="">
-                                        <img src="https://picsum.photos/200/200" alt="kepala sekolah" class="rounded-circle py-2">
+                                        <img src="https://picsum.photos/flower/200/200" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h3>Lorem Ipsum</h3>
                                     <h4>Kepala Sekolah</h4>
                                 </div>
                             </div>
                             <div class="guru2 row">
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
                                     <h4>Loren</h4>
                                     <h5>Tenaga Pendidik</h5>
                                 </div>
-                                <div class="guru col">
+                                <div class="guru col-md-4 col-sm-6">
                                     <div class="">
                                         <img src="https://picsum.photos/150/150" alt="kepala sekolah" class="rounded-circle py-2">
                                     </div>
@@ -104,7 +103,7 @@
                     <h2>Informasi</h2>
                     <div class="row Informasi my-4">
                         <div class="col  mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                            <img src="https://picsum.photos/seed/flower/150/100" alt="Kepala Sekolah" class="mr-3">
                         </div>
                         <div class="col">
                             <p class="judul-informasi">Kedatangan SMK Tanada Wadung Asri ke Prodi D4 Destinasi Pariwisata FV UNAIR</p>
@@ -117,7 +116,7 @@
                     </div>
                     <div class="row Informasi my-4">
                         <div class="col  mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                            <img src="https://picsum.photos/seed/flower/150/100" alt="Kepala Sekolah" class="mr-3">
                         </div>
                         <div class="col">
                             <p class="judul-informasi">Kedatangan SMK Tanada Wadung Asri ke Prodi D4 Destinasi Pariwisata FV UNAIR</p>
@@ -130,7 +129,7 @@
                     </div>
                     <div class="row Informasi my-4">
                         <div class="col  mb-2">
-                            <img src="https://picsum.photos/150/100" alt="Kepala Sekolah" class="mr-3">
+                            <img src="https://picsum.photos/seed/flower/150/100" alt="Kepala Sekolah" class="mr-3">
                         </div>
                         <div class="col">
                             <p class="judul-informasi">Kedatangan SMK Tanada Wadung Asri ke Prodi D4 Destinasi Pariwisata FV UNAIR</p>

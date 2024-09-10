@@ -6,22 +6,41 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'tata-usaha', endValue: 6 }
     ];
 
-    counters.forEach(counter => {
-        const element = document.getElementById(counter.id);
+    const startCounting = (element, endValue) => {
         let currentValue = 0;
-        const increment = counter.endValue / 100; // Adjust the speed of the counting
+        const increment = endValue / 160; // Adjust the speed of the counting
 
         const updateCounter = () => {
-            if (currentValue < counter.endValue) {
+            if (currentValue < endValue) {
                 currentValue += increment;
                 element.textContent = Math.ceil(currentValue);
                 requestAnimationFrame(updateCounter);
             } else {
-                element.textContent = counter.endValue;
+                element.textContent = endValue;
             }
         };
 
         updateCounter();
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const { target } = entry;
+                const counter = counters.find(counter => counter.id === target.id);
+                if (counter) {
+                    startCounting(target, counter.endValue);
+                    observer.unobserve(target); // Stop observing after animation starts
+                }
+            }
+        });
+    });
+
+    counters.forEach(counter => {
+        const element = document.getElementById(counter.id);
+        if (element) {
+            observer.observe(element);
+        }
     });
 });
 
@@ -36,5 +55,34 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             navbar.classList.remove('scrolled');
         }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const items = document.querySelectorAll('.fasilitas-item');
+    const galleries = document.querySelectorAll('.gallery');
+    
+    items.forEach(item => {
+        item.addEventListener('click', () => {
+            // Hide all galleries
+            galleries.forEach(gallery => {
+                if (gallery !== document.querySelector(item.getAttribute('data-target'))) {
+                    gallery.classList.remove('active');
+                    item.classList.remove('active');
+                }
+            });
+            
+            // Toggle the selected gallery
+            const targetId = item.getAttribute('data-target');
+            const targetGallery = document.querySelector(targetId);
+            if (targetGallery.classList.contains('active')) {
+                targetGallery.classList.remove('active');
+                item.classList.remove('active');
+            } else {
+                targetGallery.classList.add('active');
+                item.classList.add('active');
+            }
+        });
     });
 });
