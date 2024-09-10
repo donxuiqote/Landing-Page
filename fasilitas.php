@@ -10,12 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
 <body>
     <!-- Navbar -->
         <?php include 'includes/navbar.php'; ?>
+
         <div class="header text-center">
         <H1>SMK TANADA</H1>
     </div>
@@ -128,14 +130,14 @@
             </div>
         </div>
     </div>
-    </section>
+
+    </div>
 
 
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark text-white text-center ">
-        <p>&copy; 2024 Sekolah Kami. All Rights Reserved.</p>
-    </footer>
+
+    <script src="javascript/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
