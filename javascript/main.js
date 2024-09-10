@@ -45,6 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('open');
+        menuToggle.classList.toggle('active');
+    });
+});
+
 
 document.addEventListener('DOMContentLoaded', function () {
     var navbar = document.getElementById('navbar');
